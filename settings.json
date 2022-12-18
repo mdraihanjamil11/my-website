@@ -1,0 +1,142 @@
+{
+    "editor.inlineSuggest.enabled": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    // Cursor
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorBlinking": "expand",
+    "editor.cursorWidth": 2,
+    "editor.linkedEditing": true,
+    // Brackets
+    "editor.guides.highlightActiveBracketPair": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.guides.bracketPairs": "active",
+    //Font Section
+    "editor.fontFamily": "'Cascadia Code', 'Fira Code iScript'",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 16,
+    "scm.inputFontSize": 15,
+    "editor.tabSize": 4,
+    // Theme
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Learn with Sumit - Peace of the eye - Dracula version",
+
+    // Terminal
+    // "terminal.integrated.defaultProfile.linux": "zsh",
+    // "terminal.integrated.fontFamily": "MesloLGS NF",
+    // "terminal.integrated.enableBell": true,
+
+    // Prettier
+    "prettier.tabWidth": 4,
+    "prettier.printWidth": 100,
+    "prettier.singleQuote": true,
+
+    // // eslint
+    // "editor.codeActionsOnSave": {
+    //     "source.fixAll.eslint": true,
+    //     "source.fixAll.tslint": true,
+    //     "source.organizeImports": true
+    // },
+
+    // Color & Font Customization
+    // "editor.tokenColorCustomizations": {
+    //     "textMateRules": [
+    //         {
+    //             // CSS
+    //             "scope": ["comment", "punctuation.definition.comment"],
+    //             "settings": {
+    //                 // "foreground": "#14a800"
+    //             }
+    //         },
+    //         {
+    //             "scope": [
+    //                 // the following elements will be in italic
+    //                 //   (=Fira Code iScript)
+    //                 "comment",
+    //                 "keyword.control.import.js", // import
+    //                 "keyword.control.export.js", // export
+    //                 "keyword.control.from.js", // from
+    //                 // "constant", // String, Number, Boolean…, this, super
+    //                 "variable.parameter",
+    //                 "storage.type.function", // function
+    //                 "storage.modifier", // static keyword
+    //                 "storage.type.class", // class keyword
+    //                 "storage.type.php", // typehints in methods keyword
+    //                 "keyword.other.new.php", // new
+    //                 "entity.other.attribute-name", // html attributes
+    //                 "fenced_code.block.language.markdown", // markdown language modifier
+    //                 "support.class"
+    //                 // "variable.other.readwrite.js" // err in catch block
+    //             ],
+    //             "settings": {
+    //                 "fontStyle": "italic bold"
+    //             }
+    //         },
+    //         {
+    //             "scope": [
+    //                 // the following elements will be displayed in bold
+    //                 "entity.name.type.class", // class names
+    //                 "meta.function-call.js",
+    //                 "variable.language.this.js"
+    //             ],
+    //             "settings": {
+    //                 "fontStyle": "bold"
+    //             }
+    //         },
+    //         {
+    //             "scope": [
+    //                 // the following elements will be displayed in bold and italic
+    //                 "entity.name.section.markdown" // markdown headlines
+    //             ],
+    //             "settings": {
+    //                 "fontStyle": "italic bold"
+    //             }
+    //         },
+    //         {
+    //             "scope": [
+    //                 // the following elements will be excluded from italics
+    //                 //   (VSCode has some defaults for italics)
+    //                 "invalid",
+    //                 "keyword.operator",
+    //                 "constant.numeric.css",
+    //                 "keyword.other.unit.px.css",
+    //                 "constant.numeric.decimal.js",
+    //                 "constant.numeric.json",
+    //                 "entity.other.attribute-name.class.css"
+    //             ],
+    //             "settings": {
+    //                 "fontStyle": ""
+    //             }
+    //         }
+    //     ]
+    // },
+    // "thunder-client.codeSnippetLanguage": "cs-httpclient",
+    // "explorer.confirmDelete": false,
+    // "javascript.updateImportsOnFileMove.enabled": "always",
+    // "liveServer.settings.donotVerifyTags": true,
+    // "explorer.confirmDragAndDrop": false,
+    // "tabnine.experimentalAutoImports": true,
+    // "editor.minimap.enabled": false,
+    // "liveServer.settings.donotShowInfoMsg": true,
+    // "wallaby.startAutomatically": false,
+    // "quokka.compactMessageOutput": true,
+    // "github.copilot.enable": {
+    //     "*": true,
+    //     "javascriptreact": true,
+    //     "yaml": false,
+    //     "plaintext": true,
+    //     "markdown": true
+    // },
+    // "git.enableSmartCommit": true,
+    // "redhat.telemetry.enabled": true,
+    // "github.copilot.advanced": {}
+}
